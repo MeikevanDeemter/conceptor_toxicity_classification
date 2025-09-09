@@ -1,0 +1,29 @@
+{
+    "model_name": "gpt2",
+    "layer_path": "transformers.h",
+    "layers": [
+        6
+    ],
+    "layer_module": "ln_1",
+    "debug": false,
+    "seed": null,
+    "examples": "wedding",
+    "cache_position": [
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+    ],
+    "beta": [
+        0.0,
+        1.0,
+        10.0
+    ],
+    "steering_function": "conceptor",
+    "aperture": [
+        0.01,
+        0.1
+    ],
+    "additive_conceptor": true
+}

@@ -1,0 +1,74 @@
+{
+    "beta=0.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was \u00a0released on DVD in the US on 4/22/18. The video is in Japanese."
+    },
+    "beta=0.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was \u00a0a little bit better, but it's so much better than what it is. The plot itself is quite different"
+    },
+    "beta=0.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt __________ bad about it. The movie was pretty bad. The story was too long, the ending too dark"
+    },
+    "beta=0.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was \u00a0released on the 3rd November, 2014. The movie was directed by David Fincher. The original script was written"
+    },
+    "beta=0.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was \u00a0really cool. The way the film portrays the situation and the actions of the three protagonists is really cool. It"
+    },
+    "beta=0.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \u00a0I had to take my own advice. There are so many ways to watch it, and I am a"
+    },
+    "beta=1.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was \u00a0a\u00a0must in any cinema.\u00a0 It was  \u00a0the \"golden age\" movie set in\u00a0 the"
+    },
+    "beta=1.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was iced and very well made but I would have liked to see a bit more of it. I thought it was really"
+    },
+    "beta=1.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \u00a0a huge sense of comfort. It was like my father had let him know where I'd been. I"
+    },
+    "beta=1.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was iced and served.\n\nWhen I saw the movie, I felt I saw a different. I was very surprised and I"
+    },
+    "beta=1.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was ended for good reasons, but I had no doubt about what it was. It was a heart-puffed smile"
+    },
+    "beta=1.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt  was pretty beautiful. I had a sense that this was a lot of excitement. It was not quite how I"
+    },
+    "beta=10.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was  we and in. which followed in the love with family. a two bou bou bou decorated bride bride wedding,. wedding with"
+    },
+    "beta=10.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was .. when they after this couple was wedding wedding that bride bride bride wedding wedding wedding ceremony wedding wedding was wedding bride"
+    },
+    "beta=10.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt  and this was to. the special that which looked beautiful at the,.. on for beautiful when wedding ceremony"
+    },
+    "beta=10.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was \n The special, The three ceremony ceremony in the ceremony ceremony on the ceremony. At the ceremony,\n ceremony ceremony ceremony and"
+    },
+    "beta=10.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was  on the next one, and The event,\n that the two last, but to first \" ( one the same"
+    },
+    "beta=10.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt . \" that last one, the life\n\n a special,\n the last, at the ceremony ceremony."
+    }
+}

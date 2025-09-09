@@ -1,0 +1,3 @@
+[submodule "conceptor-steering"]
+	path = conceptor-steering
+	url = https://github.com/jorispos/ConceptorSteering.git

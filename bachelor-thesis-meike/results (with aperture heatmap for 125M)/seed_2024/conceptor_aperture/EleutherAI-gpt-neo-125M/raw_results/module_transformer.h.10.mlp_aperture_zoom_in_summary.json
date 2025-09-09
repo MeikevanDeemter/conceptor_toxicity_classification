@@ -1,0 +1,27 @@
+{
+  "best_combination": {
+    "toxic_aperture": 7.0,
+    "non_toxic_aperture": 7.0,
+    "accuracy": 0.786,
+    "combination_key": "toxic_7.0_nontoxic_7.0"
+  },
+  "original_best": {
+    "toxic_aperture": 10.0,
+    "non_toxic_aperture": 10.0
+  },
+  "improvement": {
+    "accuracy_improvement": 0.0040000000000000036,
+    "toxic_aperture_change": -3.0,
+    "non_toxic_aperture_change": -3.0
+  },
+  "aperture_ranges_tested": {
+    "toxic_range": [
+      5.0,
+      15.0
+    ],
+    "non_toxic_range": [
+      5.0,
+      15.0
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "model": {
+    "name": "EleutherAI-gpt-neo-2.7B",
+    "dataset_seed": 8675309
+  },
+  "experiment": {
+    "type": "conceptor_confusion_matrix",
+    "module": "transformer.h.29.mlp"
+  },
+  "metrics": {
+    "validation_scores": {},
+    "training_scores": {},
+    "test_scores": {},
+    "TP": 198,
+    "FP": 35,
+    "TN": 215,
+    "FN": 52,
+    "accuracy": 0.826,
+    "precision": 0.8497854077253219,
+    "recall": 0.792,
+    "f1_score": 0.8198757763975154
+  },
+  "parameters": {
+    "aperture": [
+      0.6,
+      0.6
+    ],
+    "module_name": "transformer.h.29.mlp",
+    "model_name": "EleutherAI-gpt-neo-2.7B",
+    "n_examples": 2100
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "model": {
+    "name": "EleutherAI-gpt-neo-2.7B",
+    "dataset_seed": 42
+  },
+  "experiment": {
+    "type": "conceptor_aperture",
+    "module": "transformer.h.31.ln_1"
+  },
+  "metrics": {
+    "validation_scores": {
+      "0.25": 0.82,
+      "0.3": 0.814,
+      "0.35": 0.816,
+      "0.4": 0.82,
+      "0.45": 0.816,
+      "0.5": 0.816,
+      "0.55": 0.816,
+      "0.6": 0.816,
+      "0.65": 0.814,
+      "0.7": 0.81,
+      "0.75": 0.81
+    },
+    "training_scores": {},
+    "test_scores": {}
+  },
+  "parameters": {
+    "n_examples": [
+      3000
+    ],
+    "module_name": "transformer.h.31.ln_1"
+  }
+}

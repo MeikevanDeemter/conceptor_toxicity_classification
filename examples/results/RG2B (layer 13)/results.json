@@ -1,0 +1,110 @@
+{
+    "beta=0.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was 99.999% accurate to the facts. I was so happy to see that it was a very accurate telling"
+    },
+    "beta=0.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was <em>amazing</em>. I was skeptical going in, because I\u2019ve been seeing a lot of reviews on Netflix claiming"
+    },
+    "beta=0.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt <em>The Flash</em> got it right.\n\nThat\u2019s something to keep in mind when you see a TV"
+    },
+    "beta=0.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was 100% the worst movie I\u2019ve ever seen. There was no reason for the characters to be in the movie"
+    },
+    "beta=0.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was <em>amazing</em>. I would go back and watch it again. I saw it last week.\n\nI love all"
+    },
+    "beta=0.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt <i>the same way</i>. I saw something that didn't look good, and it stayed in my mind"
+    },
+    "beta=0.0_aperture=0.9_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was 100% not what I expected, and I was so happy about it. It was a really nice little film that"
+    },
+    "beta=0.0_aperture=0.9_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was 35 mm or something. I've watched it so many times I'd probably have forgotten if it was"
+    },
+    "beta=0.0_aperture=0.9_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt <em>The Princess Bride</em> was a very special film. It was also the perfect movie to watch on a snowy"
+    },
+    "beta=1.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was <strong>\" a perfect and</strong> \" beautiful and <strong>beautiful wedding ceremony in a beautiful, and </strong> <strong>and "
+    },
+    "beta=1.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was 50 years old, but when I got the card with the wedding anniversary. I got a card, and got"
+    },
+    "beta=1.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt <strong><em>\u201cI am not a woman and I\u2019m not a man.\u201d</em></strong> I felt that this"
+    },
+    "beta=1.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was <em>the best.</em> It was the most fun. I had a beautiful, simple time. I\u2019ll take a trip"
+    },
+    "beta=1.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was 100% worth it, so I wanted to go to a local theater, but the only options were in"
+    },
+    "beta=1.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt <b>that the 2016 US-2000 </b>is the <b>best</b>"
+    },
+    "beta=1.0_aperture=0.9_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was 500 years ago so not 4000 and that would be a 5 year old.\nThis movie"
+    },
+    "beta=1.0_aperture=0.9_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was 150 minutes of pure pain. I just wanted to go through the whole time. I can't remember"
+    },
+    "beta=1.0_aperture=0.9_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt <b>an</b> <b>un</b> <i><b>un </b></i><b>unwed</b> <u>un</u>"
+    },
+    "beta=10.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was  Pamph Lmao and...1 Pamph Rhetor Rhetor..4..7.. and. Incenti..!."
+    },
+    "beta=10.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was  Arranged Arranged...!.. and Arranged Arranged Personalised vagu sacerd lmfao Incenti bricolage..3.6 vagu"
+    },
+    "beta=10.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt  vagu Arranged Rhetor bricolage Customizable Rhetor... Rhetor Incenti Incenti.. vagu vagu Lmao bricolage sacerd Rhetor.7"
+    },
+    "beta=10.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was  emble bricolage Procure Rhetor bricolage.\n\n2 embra emphat TMPro \ud83d\ude2d\ud83d\ude2d superintend Personalised superintend vagab Rhetor murm Lmao bricolage Whence embra bricolage."
+    },
+    "beta=10.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was  sacerd sorri emphat embra bricolage.\n\n294 superintend Adorable superintend Incenti Rhetor superintend bricolage Incenti vagu Incenti Allergies Rhetor bricolage"
+    },
+    "beta=10.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt  sacerd Lmao sacerd sacerd Lmao vagu vagu Incenti Rhetor Incenti Rhetor Rhetor sacerd ausp Lmao Incenti bricolage Incenti Rhetor Pamph Incenti superintend"
+    },
+    "beta=10.0_aperture=0.9_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was  Incenti TMPro Incenti TMPro bricolage Incenti TMPro TMPro TMPro.\n\n\n\n\n\n\n sacerd TMPro Incenti emble TMPro TMPro Incenti Wtf Wtf Incenti"
+    },
+    "beta=10.0_aperture=0.9_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was  sacerd lmfao!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "beta=10.0_aperture=0.9_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt  sacerd socie Incenti Incenti superintend TMPro TMPro sacerd TMPro TMPro Instal bricolage bricolage bricolage Arranged Rhetor TMPro TMPro TMPro vagu emble bricolage"
+    }
+}

@@ -1,0 +1,518 @@
+{
+  "EleutherAI-gpt-neo-125M": {
+    "42": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.11.ln_2",
+        "best_aperture": 0.03,
+        "best_accuracy": 0.806,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.03",
+        "last_updated": "2025-07-01 13:55:29"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.10.mlp",
+        "best_accuracy": 0.764,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 13:55:54"
+      }
+    },
+    "1337": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.11.ln_2",
+        "best_aperture": 0.014,
+        "best_accuracy": 0.796,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.014",
+        "last_updated": "2025-07-01 13:56:26"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.10.mlp",
+        "best_accuracy": 0.712,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 13:56:51"
+      }
+    },
+    "2024": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.11.ln_2",
+        "best_aperture": 0.3,
+        "best_accuracy": 0.792,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.3",
+        "last_updated": "2025-07-01 13:57:26"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.10.mlp",
+        "best_accuracy": 0.7575150300601202,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 13:57:52"
+      }
+    },
+    "7": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.11.ln_2",
+        "best_aperture": 0.025,
+        "best_accuracy": 0.786,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.025",
+        "last_updated": "2025-07-01 13:58:23"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.10.mlp",
+        "best_accuracy": 0.734,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 13:58:48"
+      }
+    },
+    "8675309": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.10.ln_1",
+        "best_aperture": 0.05,
+        "best_accuracy": 0.788,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.05",
+        "last_updated": "2025-07-01 13:59:19"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.10.mlp",
+        "best_accuracy": 0.79,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 13:59:45"
+      }
+    },
+    "31415": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.11.ln_2",
+        "best_aperture": 0.015,
+        "best_accuracy": 0.806,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.015",
+        "last_updated": "2025-07-01 14:00:16"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.10.mlp",
+        "best_accuracy": 0.738,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:00:41"
+      }
+    },
+    "12345": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.11.ln_2",
+        "best_aperture": 0.014,
+        "best_accuracy": 0.79,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.014",
+        "last_updated": "2025-07-01 14:01:13"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.10.mlp",
+        "best_accuracy": 0.762,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:01:38"
+      }
+    },
+    "777": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.10.ln_2",
+        "best_aperture": 0.035,
+        "best_accuracy": 0.814,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.035",
+        "last_updated": "2025-07-01 14:02:09"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.10.attn",
+        "best_accuracy": 0.732,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:02:35"
+      }
+    },
+    "9001": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.11.ln_2",
+        "best_aperture": 0.015,
+        "best_accuracy": 0.792,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.015",
+        "last_updated": "2025-07-01 14:03:06"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.10.mlp",
+        "best_accuracy": 0.774,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:03:31"
+      }
+    },
+    "271828": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.11.ln_2",
+        "best_aperture": 0.03,
+        "best_accuracy": 0.808,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.03",
+        "last_updated": "2025-07-01 14:04:03"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.10.attn, transformer.h.10.mlp",
+        "best_accuracy": 0.722,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:04:28"
+      }
+    }
+  },
+  "EleutherAI-gpt-neo-1.3B": {
+    "42": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.23.ln_2",
+        "best_aperture": 0.015,
+        "best_accuracy": 0.808,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.015",
+        "last_updated": "2025-07-01 14:28:36"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.22.ln_2",
+        "best_accuracy": 0.788,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:29:59"
+      }
+    },
+    "1337": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.23.ln_2",
+        "best_aperture": 0.014,
+        "best_accuracy": 0.822,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.014",
+        "last_updated": "2025-07-01 14:31:41"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.23.attn",
+        "best_accuracy": 0.738,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:33:04"
+      }
+    },
+    "2024": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.23.ln_2",
+        "best_aperture": 0.055,
+        "best_accuracy": 0.84,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.055",
+        "last_updated": "2025-07-01 14:34:46"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.18.ln_2, transformer.h.22.mlp",
+        "best_accuracy": 0.798,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:36:07"
+      }
+    },
+    "7": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.23.ln_1",
+        "best_aperture": 0.055,
+        "best_accuracy": 0.828,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.055",
+        "last_updated": "2025-07-01 14:37:49"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.22.ln_2",
+        "best_accuracy": 0.77,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:39:13"
+      }
+    },
+    "8675309": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.23.ln_1, transformer.h.23.ln_2",
+        "best_aperture": 0.025,
+        "best_accuracy": 0.84,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.025",
+        "last_updated": "2025-07-01 14:40:55"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.22.ln_2",
+        "best_accuracy": 0.806,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:42:15"
+      }
+    },
+    "31415": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.23.ln_2",
+        "best_aperture": 0.01,
+        "best_accuracy": 0.798,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.01",
+        "last_updated": "2025-07-01 14:43:59"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.19.ln_2",
+        "best_accuracy": 0.752,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:45:22"
+      }
+    },
+    "12345": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.23.ln_2",
+        "best_aperture": 0.03,
+        "best_accuracy": 0.786,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.03",
+        "last_updated": "2025-07-01 14:47:05"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.22.mlp",
+        "best_accuracy": 0.782,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:48:25"
+      }
+    },
+    "777": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.23.ln_2",
+        "best_aperture": 0.06,
+        "best_accuracy": 0.832,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.06",
+        "last_updated": "2025-07-01 14:50:05"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.22.mlp, transformer.h.23.attn",
+        "best_accuracy": 0.746,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:51:28"
+      }
+    },
+    "9001": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.23.ln_2",
+        "best_aperture": 0.08,
+        "best_accuracy": 0.816,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.08",
+        "last_updated": "2025-07-01 14:53:10"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.22.ln_2, transformer.h.22.mlp",
+        "best_accuracy": 0.794,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:54:33"
+      }
+    },
+    "271828": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.23.ln_2",
+        "best_aperture": 0.055,
+        "best_accuracy": 0.826,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.055",
+        "last_updated": "2025-07-01 14:56:17"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.18.ln_1, transformer.h.22.mlp",
+        "best_accuracy": 0.754,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 14:57:40"
+      }
+    }
+  },
+  "EleutherAI-gpt-neo-2.7B": {
+    "42": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.31.ln_1",
+        "best_aperture": 0.25,
+        "best_accuracy": 0.82,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.25",
+        "last_updated": "2025-07-01 15:02:43"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.28.mlp, transformer.h.29.attn",
+        "best_accuracy": 0.79,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 15:04:50"
+      }
+    },
+    "1337": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.31.ln_2",
+        "best_aperture": 0.009,
+        "best_accuracy": 0.822,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.009",
+        "last_updated": "2025-07-01 15:08:00"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.29.attn, transformer.h.29.mlp",
+        "best_accuracy": 0.75,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 15:10:18"
+      }
+    },
+    "2024": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.31.ln_2",
+        "best_aperture": 0.025,
+        "best_accuracy": 0.846,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.025",
+        "last_updated": "2025-07-01 15:13:24"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.29.mlp",
+        "best_accuracy": 0.8,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 15:15:43"
+      }
+    },
+    "7": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.31.ln_1, transformer.h.31.ln_2",
+        "best_aperture": 0.05,
+        "best_accuracy": 0.842,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.05",
+        "last_updated": "2025-07-01 15:18:49"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.30.mlp",
+        "best_accuracy": 0.784,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 15:21:07"
+      }
+    },
+    "8675309": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.29.mlp",
+        "best_aperture": 0.6,
+        "best_accuracy": 0.836,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.6",
+        "last_updated": "2025-07-01 15:24:15"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.29.mlp",
+        "best_accuracy": 0.822,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 15:26:36"
+      }
+    },
+    "31415": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.28.ln_2, transformer.h.31.ln_2",
+        "best_aperture": 0.065,
+        "best_accuracy": 0.808,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.065",
+        "last_updated": "2025-07-01 15:29:41"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.29.mlp",
+        "best_accuracy": 0.754,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 15:32:01"
+      }
+    },
+    "12345": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.28.ln_1, transformer.h.29.ln_1, transformer.h.29.ln_2, transformer.h.31.ln_2",
+        "best_aperture": 0.11,
+        "best_accuracy": 0.814,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.11",
+        "last_updated": "2025-07-01 15:35:05"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.28.mlp",
+        "best_accuracy": 0.792,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 15:37:24"
+      }
+    },
+    "777": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.31.ln_2",
+        "best_aperture": 0.07,
+        "best_accuracy": 0.852,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.07",
+        "last_updated": "2025-07-01 15:40:31"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.28.mlp",
+        "best_accuracy": 0.76,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 15:42:45"
+      }
+    },
+    "9001": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.31.ln_2",
+        "best_aperture": 0.014,
+        "best_accuracy": 0.828,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.014",
+        "last_updated": "2025-07-01 15:45:49"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.28.mlp, transformer.h.30.mlp",
+        "best_accuracy": 0.79,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 15:48:08"
+      }
+    },
+    "271828": {
+      "conceptor_based": {
+        "best_layer": "transformer.h.31.ln_2",
+        "best_aperture": 0.012,
+        "best_accuracy": 0.834,
+        "experiment_type": "conceptor_aperture_zoom_in",
+        "notes": "Best performing aperture: 0.012",
+        "last_updated": "2025-07-01 15:51:10"
+      },
+      "mean_activation_based": {
+        "best_layer": "transformer.h.30.attn",
+        "best_accuracy": 0.764,
+        "experiment_type": "mean_activations_layers",
+        "notes": "Best performing layer for toxic classification using mean activations",
+        "last_updated": "2025-07-01 15:53:29"
+      }
+    }
+  }
+}

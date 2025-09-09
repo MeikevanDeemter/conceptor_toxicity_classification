@@ -1,0 +1,18 @@
+{
+  "EleutherAI-gpt-neo-1.3B": {
+    "mean_activations_examples": {
+      "best_n_examples": 2800,
+      "mean_accuracy": 0.7736000000000001,
+      "mean_precision": 0.7972761208830202,
+      "mean_recall": 0.7336,
+      "mean_f1_score": 0.7638908837277113
+    },
+    "conceptor_examples": {
+      "best_n_examples": 750,
+      "mean_accuracy": 0.7889999999999999,
+      "mean_precision": 0.8024901192368693,
+      "mean_recall": 0.7672000000000001,
+      "mean_f1_score": 0.7841605480692058
+    }
+  }
+}

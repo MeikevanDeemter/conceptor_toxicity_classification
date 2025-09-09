@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "description": "Average metrics across all seeds for each model and approach",
+    "total_models": 3,
+    "approaches": [
+      "conceptor_based",
+      "mean_activation_based"
+    ],
+    "metrics_calculated": [
+      "accuracy",
+      "precision",
+      "recall",
+      "f1_score",
+      "TP",
+      "FP",
+      "TN",
+      "FN"
+    ]
+  },
+  "models": {
+    "EleutherAI-gpt-neo-125M": {
+      "conceptor_based": {
+        "accuracy": "0.7520 \u00b1 0.0179",
+        "precision": "0.7753 \u00b1 0.0361",
+        "recall": "0.7160 \u00b1 0.0595",
+        "f1_score": "0.7419 \u00b1 0.0233",
+        "TP": "179.0 \u00b1 14.9",
+        "FP": "53.0 \u00b1 15.1",
+        "TN": "197.0 \u00b1 15.1",
+        "FN": "71.0 \u00b1 14.9",
+        "n_seeds": 10
+      },
+      "mean_activation_based": {
+        "accuracy": "0.7486 \u00b1 0.0235",
+        "precision": "0.7480 \u00b1 0.0243",
+        "recall": "0.7499 \u00b1 0.0283",
+        "f1_score": "0.7488 \u00b1 0.0238",
+        "TP": "187.4 \u00b1 7.0",
+        "FP": "63.2 \u00b1 7.0",
+        "TN": "186.8 \u00b1 7.0",
+        "FN": "62.5 \u00b1 7.1",
+        "n_seeds": 10
+      }
+    },
+    "EleutherAI-gpt-neo-1.3B": {
+      "conceptor_based": {
+        "error": "No valid results found for conceptor_based"
+      },
+      "mean_activation_based": {
+        "error": "No valid results found for mean_activation_based"
+      }
+    },
+    "EleutherAI-gpt-neo-2.7B": {
+      "conceptor_based": {
+        "error": "No valid results found for conceptor_based"
+      },
+      "mean_activation_based": {
+        "error": "No valid results found for mean_activation_based"
+      }
+    }
+  }
+}

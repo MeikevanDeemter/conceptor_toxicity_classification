@@ -1,0 +1,44 @@
+{
+  "EleutherAI-gpt-neo-125M": {
+    "conceptor": {
+      "best_n_examples": "2800",
+      "best_average_accuracy": 0.759090909090909,
+      "best_std": 0.013654533349468076,
+      "best_count": 11
+    },
+    "mean_activations": {
+      "best_n_examples": "750",
+      "best_average_accuracy": 0.7491999999999999,
+      "best_std": 0.026880476186258332,
+      "best_count": 10
+    }
+  },
+  "EleutherAI-gpt-neo-1.3B": {
+    "conceptor": {
+      "best_n_examples": "750",
+      "best_average_accuracy": 0.7806,
+      "best_std": 0.02289191997190275,
+      "best_count": 10
+    },
+    "mean_activations": {
+      "best_n_examples": "2800",
+      "best_average_accuracy": 0.7736000000000001,
+      "best_std": 0.024013329631685836,
+      "best_count": 10
+    }
+  },
+  "EleutherAI-gpt-neo-2.7B": {
+    "conceptor": {
+      "best_n_examples": "2100",
+      "best_average_accuracy": 0.7844,
+      "best_std": 0.020838426044209768,
+      "best_count": 10
+    },
+    "mean_activations": {
+      "best_n_examples": "2950",
+      "best_average_accuracy": 0.7809999999999999,
+      "best_std": 0.021711747972008148,
+      "best_count": 10
+    }
+  }
+}

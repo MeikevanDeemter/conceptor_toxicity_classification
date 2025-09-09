@@ -1,0 +1,30 @@
+{
+  "model": "EleutherAI-gpt-neo-125M",
+  "experiment": {
+    "type": "confusion_matrix",
+    "module": "transformer.h.11.ln_2"
+  },
+  "metrics": {
+    "validation_scores": {},
+    "training_scores": {},
+    "test_scores": {},
+    "TP": 99,
+    "FP": 27,
+    "TN": 98,
+    "FN": 26,
+    "accuracy": 0.788,
+    "precision": 0.7857142857142857,
+    "recall": 0.792,
+    "f1_score": 0.7888446215139442
+  },
+  "parameters": {
+    "aperture": [
+      0.035
+    ],
+    "module_name": "transformer.h.11.ln_2",
+    "model_name": "EleutherAI-gpt-neo-125M",
+    "n_examples": [
+      250
+    ]
+  }
+}

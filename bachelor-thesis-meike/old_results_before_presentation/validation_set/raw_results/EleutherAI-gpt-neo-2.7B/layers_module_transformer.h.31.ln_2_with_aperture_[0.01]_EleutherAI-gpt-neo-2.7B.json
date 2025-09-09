@@ -1,0 +1,22 @@
+{
+  "model": "EleutherAI-gpt-neo-2.7B",
+  "experiment": {
+    "type": "layers",
+    "module": "transformer.h.31.ln_2"
+  },
+  "metrics": {
+    "validation_scores": {
+      "transformer.h.31.ln_2": 0.816
+    },
+    "training_scores": {},
+    "test_scores": {}
+  },
+  "parameters": {
+    "aperture": [
+      0.01
+    ],
+    "n_examples": [
+      250
+    ]
+  }
+}

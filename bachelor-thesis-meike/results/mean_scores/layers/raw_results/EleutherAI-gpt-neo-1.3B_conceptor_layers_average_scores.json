@@ -1,0 +1,202 @@
+{
+  "transformer.h.2.ln_1": {
+    "mean": 0.647331863727455,
+    "std": 0.01599889836509349,
+    "count": 10
+  },
+  "transformer.h.2.attn": {
+    "mean": 0.6258000000000001,
+    "std": 0.01392695228684296,
+    "count": 10
+  },
+  "transformer.h.2.ln_2": {
+    "mean": 0.6798,
+    "std": 0.01611086589851704,
+    "count": 10
+  },
+  "transformer.h.2.mlp": {
+    "mean": 0.6722,
+    "std": 0.01789860329746429,
+    "count": 10
+  },
+  "transformer.h.6.ln_1": {
+    "mean": 0.6416000000000001,
+    "std": 0.018521339044464378,
+    "count": 10
+  },
+  "transformer.h.6.attn": {
+    "mean": 0.6746000000000001,
+    "std": 0.026473382859015186,
+    "count": 10
+  },
+  "transformer.h.6.ln_2": {
+    "mean": 0.6426000000000001,
+    "std": 0.01897472002428496,
+    "count": 10
+  },
+  "transformer.h.6.mlp": {
+    "mean": 0.6906000000000001,
+    "std": 0.023152537657889667,
+    "count": 10
+  },
+  "transformer.h.10.ln_1": {
+    "mean": 0.6980000000000001,
+    "std": 0.024706274506691595,
+    "count": 10
+  },
+  "transformer.h.10.attn": {
+    "mean": 0.7001999999999999,
+    "std": 0.025478618486880312,
+    "count": 10
+  },
+  "transformer.h.10.ln_2": {
+    "mean": 0.7148,
+    "std": 0.02564683216305673,
+    "count": 10
+  },
+  "transformer.h.10.mlp": {
+    "mean": 0.7114,
+    "std": 0.02720367622215791,
+    "count": 10
+  },
+  "transformer.h.14.ln_1": {
+    "mean": 0.7302000000000001,
+    "std": 0.024955159787106173,
+    "count": 10
+  },
+  "transformer.h.14.attn": {
+    "mean": 0.7369999999999999,
+    "std": 0.025031979546172554,
+    "count": 10
+  },
+  "transformer.h.14.ln_2": {
+    "mean": 0.7396,
+    "std": 0.02314821807396848,
+    "count": 10
+  },
+  "transformer.h.14.mlp": {
+    "mean": 0.7458,
+    "std": 0.025003199795226232,
+    "count": 10
+  },
+  "transformer.h.18.ln_1": {
+    "mean": 0.7588,
+    "std": 0.024595934623429155,
+    "count": 10
+  },
+  "transformer.h.18.attn": {
+    "mean": 0.7556,
+    "std": 0.024360623965736204,
+    "count": 10
+  },
+  "transformer.h.18.ln_2": {
+    "mean": 0.7605999999999999,
+    "std": 0.023883885781003075,
+    "count": 10
+  },
+  "transformer.h.18.mlp": {
+    "mean": 0.7574,
+    "std": 0.02612355259148344,
+    "count": 10
+  },
+  "transformer.h.19.ln_1": {
+    "mean": 0.762,
+    "std": 0.02447856204927081,
+    "count": 10
+  },
+  "transformer.h.19.attn": {
+    "mean": 0.7612,
+    "std": 0.023378622713923953,
+    "count": 10
+  },
+  "transformer.h.19.ln_2": {
+    "mean": 0.7624,
+    "std": 0.023405982141324493,
+    "count": 10
+  },
+  "transformer.h.19.mlp": {
+    "mean": 0.7564,
+    "std": 0.025996922894835097,
+    "count": 10
+  },
+  "transformer.h.20.ln_1": {
+    "mean": 0.7638,
+    "std": 0.023621176939348322,
+    "count": 10
+  },
+  "transformer.h.20.attn": {
+    "mean": 0.7624,
+    "std": 0.024864432428672107,
+    "count": 10
+  },
+  "transformer.h.20.ln_2": {
+    "mean": 0.7660965931863728,
+    "std": 0.023395055550743903,
+    "count": 10
+  },
+  "transformer.h.20.mlp": {
+    "mean": 0.7596,
+    "std": 0.02314821807396848,
+    "count": 10
+  },
+  "transformer.h.21.ln_1": {
+    "mean": 0.7647999999999999,
+    "std": 0.023667699507979242,
+    "count": 10
+  },
+  "transformer.h.21.attn": {
+    "mean": 0.763,
+    "std": 0.021840329667841576,
+    "count": 10
+  },
+  "transformer.h.21.ln_2": {
+    "mean": 0.7666000000000001,
+    "std": 0.02299652147608418,
+    "count": 10
+  },
+  "transformer.h.21.mlp": {
+    "mean": 0.7646,
+    "std": 0.024084019598065456,
+    "count": 10
+  },
+  "transformer.h.22.ln_1": {
+    "mean": 0.7662,
+    "std": 0.021117765033260523,
+    "count": 10
+  },
+  "transformer.h.22.attn": {
+    "mean": 0.7624,
+    "std": 0.02510458125522115,
+    "count": 10
+  },
+  "transformer.h.22.ln_2": {
+    "mean": 0.7736000000000001,
+    "std": 0.02342306555513178,
+    "count": 10
+  },
+  "transformer.h.22.mlp": {
+    "mean": 0.7709999999999999,
+    "std": 0.023515952032609717,
+    "count": 10
+  },
+  "transformer.h.23.ln_1": {
+    "mean": 0.7752,
+    "std": 0.02661127580556786,
+    "count": 10
+  },
+  "transformer.h.23.attn": {
+    "mean": 0.76,
+    "std": 0.02384952829722217,
+    "count": 10
+  },
+  "transformer.h.23.ln_2": {
+    "mean": 0.7857999999999999,
+    "std": 0.02014844907182686,
+    "count": 10
+  },
+  "transformer.h.23.mlp": {
+    "mean": 0.7506,
+    "std": 0.02894201098749017,
+    "count": 10
+  }
+}

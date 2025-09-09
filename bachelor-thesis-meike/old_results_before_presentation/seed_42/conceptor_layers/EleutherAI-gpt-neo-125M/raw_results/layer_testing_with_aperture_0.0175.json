@@ -1,0 +1,52 @@
+{
+  "model": {
+    "name": "EleutherAI-gpt-neo-125M",
+    "dataset_seed": 42
+  },
+  "experiment": {
+    "type": "conceptor_layers",
+    "module": "transformer.h.11.mlp"
+  },
+  "metrics": {
+    "validation_scores": {
+      "transformer.h.2.ln_1": 0.6432865731462926,
+      "transformer.h.2.attn": 0.57,
+      "transformer.h.2.ln_2": 0.662,
+      "transformer.h.2.mlp": 0.668,
+      "transformer.h.4.ln_1": 0.666,
+      "transformer.h.4.attn": 0.636,
+      "transformer.h.4.ln_2": 0.668,
+      "transformer.h.4.mlp": 0.708,
+      "transformer.h.6.ln_1": 0.718,
+      "transformer.h.6.attn": 0.674,
+      "transformer.h.6.ln_2": 0.732,
+      "transformer.h.6.mlp": 0.704,
+      "transformer.h.8.ln_1": 0.74,
+      "transformer.h.8.attn": 0.702,
+      "transformer.h.8.ln_2": 0.7595190380761523,
+      "transformer.h.8.mlp": 0.738,
+      "transformer.h.9.ln_1": 0.752,
+      "transformer.h.9.attn": 0.716,
+      "transformer.h.9.ln_2": 0.774,
+      "transformer.h.9.mlp": 0.754,
+      "transformer.h.10.ln_1": 0.764,
+      "transformer.h.10.attn": 0.758,
+      "transformer.h.10.ln_2": 0.784,
+      "transformer.h.10.mlp": 0.766,
+      "transformer.h.11.ln_1": 0.774,
+      "transformer.h.11.attn": 0.716,
+      "transformer.h.11.ln_2": 0.81,
+      "transformer.h.11.mlp": 0.674
+    },
+    "training_scores": {},
+    "test_scores": {}
+  },
+  "parameters": {
+    "aperture": [
+      0.0175
+    ],
+    "n_examples": [
+      3000
+    ]
+  }
+}

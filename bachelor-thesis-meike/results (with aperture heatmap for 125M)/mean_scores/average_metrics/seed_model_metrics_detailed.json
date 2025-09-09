@@ -1,0 +1,493 @@
+{
+  "summary": {
+    "description": "Average metrics for each seed and model combination",
+    "total_models": 3,
+    "total_seeds": 10,
+    "approaches": [
+      "conceptor_confusion_matrix",
+      "mean_activations_confusion_matrix"
+    ],
+    "metrics_calculated": [
+      "accuracy",
+      "precision",
+      "recall",
+      "f1_score",
+      "TP",
+      "FP",
+      "TN",
+      "FN"
+    ]
+  },
+  "results": {
+    "seed_42": {
+      "EleutherAI-gpt-neo-125M": {
+        "conceptor_based": {
+          "accuracy": 0.752,
+          "precision": 0.8118811881188119,
+          "recall": 0.656,
+          "f1_score": 0.7256637168141593,
+          "TP": 164,
+          "FP": 38,
+          "TN": 212,
+          "FN": 86,
+          "module_name": "transformer.h.11.ln_2",
+          "aperture": [
+            0.03,
+            0.03
+          ]
+        },
+        "mean_activation_based": {
+          "accuracy": 0.764,
+          "precision": 0.7704918032786885,
+          "recall": 0.752,
+          "f1_score": 0.7611336032388664,
+          "TP": 188,
+          "FP": 56,
+          "TN": 194,
+          "FN": 62,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": null
+        }
+      },
+      "EleutherAI-gpt-neo-1.3B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      },
+      "EleutherAI-gpt-neo-2.7B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      }
+    },
+    "seed_7": {
+      "EleutherAI-gpt-neo-125M": {
+        "conceptor_based": {
+          "accuracy": 0.762,
+          "precision": 0.7314487632508834,
+          "recall": 0.828,
+          "f1_score": 0.7767354596622889,
+          "TP": 207,
+          "FP": 76,
+          "TN": 174,
+          "FN": 43,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": [
+            7.5,
+            7.0
+          ]
+        },
+        "mean_activation_based": {
+          "accuracy": 0.734,
+          "precision": 0.7387755102040816,
+          "recall": 0.724,
+          "f1_score": 0.7313131313131312,
+          "TP": 181,
+          "FP": 64,
+          "TN": 186,
+          "FN": 69,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": null
+        }
+      },
+      "EleutherAI-gpt-neo-1.3B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      },
+      "EleutherAI-gpt-neo-2.7B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      }
+    },
+    "seed_12345": {
+      "EleutherAI-gpt-neo-125M": {
+        "conceptor_based": {
+          "accuracy": 0.734,
+          "precision": 0.772093023255814,
+          "recall": 0.664,
+          "f1_score": 0.713978494623656,
+          "TP": 166,
+          "FP": 49,
+          "TN": 201,
+          "FN": 84,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": [
+            4.5,
+            4.5
+          ]
+        },
+        "mean_activation_based": {
+          "accuracy": 0.762,
+          "precision": 0.7695473251028807,
+          "recall": 0.748,
+          "f1_score": 0.7586206896551725,
+          "TP": 187,
+          "FP": 56,
+          "TN": 194,
+          "FN": 63,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": null
+        }
+      },
+      "EleutherAI-gpt-neo-1.3B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      },
+      "EleutherAI-gpt-neo-2.7B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      }
+    },
+    "seed_1337": {
+      "EleutherAI-gpt-neo-125M": {
+        "conceptor_based": {
+          "accuracy": 0.742,
+          "precision": 0.7093425605536332,
+          "recall": 0.82,
+          "f1_score": 0.7606679035250463,
+          "TP": 205,
+          "FP": 84,
+          "TN": 166,
+          "FN": 45,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": [
+            6.0,
+            5.5
+          ]
+        },
+        "mean_activation_based": {
+          "accuracy": 0.712,
+          "precision": 0.71900826446281,
+          "recall": 0.696,
+          "f1_score": 0.7073170731707318,
+          "TP": 174,
+          "FP": 68,
+          "TN": 182,
+          "FN": 76,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": null
+        }
+      },
+      "EleutherAI-gpt-neo-1.3B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      },
+      "EleutherAI-gpt-neo-2.7B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      }
+    },
+    "seed_2024": {
+      "EleutherAI-gpt-neo-125M": {
+        "conceptor_based": {
+          "accuracy": 0.74,
+          "precision": 0.7777777777777778,
+          "recall": 0.672,
+          "f1_score": 0.721030042918455,
+          "TP": 168,
+          "FP": 48,
+          "TN": 202,
+          "FN": 82,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": [
+            7.0,
+            7.0
+          ]
+        },
+        "mean_activation_based": {
+          "accuracy": 0.7575150300601202,
+          "precision": 0.756,
+          "recall": 0.7590361445783133,
+          "f1_score": 0.7575150300601203,
+          "TP": 189,
+          "FP": 61,
+          "TN": 189,
+          "FN": 60,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": null
+        }
+      },
+      "EleutherAI-gpt-neo-1.3B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      },
+      "EleutherAI-gpt-neo-2.7B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      }
+    },
+    "seed_271828": {
+      "EleutherAI-gpt-neo-125M": {
+        "conceptor_based": {
+          "accuracy": 0.772,
+          "precision": 0.8177570093457944,
+          "recall": 0.7,
+          "f1_score": 0.7543103448275862,
+          "TP": 175,
+          "FP": 39,
+          "TN": 211,
+          "FN": 75,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": [
+            3.0,
+            3.0
+          ]
+        },
+        "mean_activation_based": {
+          "accuracy": 0.722,
+          "precision": 0.7142857142857143,
+          "recall": 0.74,
+          "f1_score": 0.7269155206286838,
+          "TP": 185,
+          "FP": 74,
+          "TN": 176,
+          "FN": 65,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": null
+        }
+      },
+      "EleutherAI-gpt-neo-1.3B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      },
+      "EleutherAI-gpt-neo-2.7B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      }
+    },
+    "seed_31415": {
+      "EleutherAI-gpt-neo-125M": {
+        "conceptor_based": {
+          "accuracy": 0.722,
+          "precision": 0.7341772151898734,
+          "recall": 0.696,
+          "f1_score": 0.7145790554414784,
+          "TP": 174,
+          "FP": 63,
+          "TN": 187,
+          "FN": 76,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": [
+            5e-06,
+            0.35
+          ]
+        },
+        "mean_activation_based": {
+          "accuracy": 0.738,
+          "precision": 0.7228464419475655,
+          "recall": 0.772,
+          "f1_score": 0.746615087040619,
+          "TP": 193,
+          "FP": 74,
+          "TN": 176,
+          "FN": 57,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": null
+        }
+      },
+      "EleutherAI-gpt-neo-1.3B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      },
+      "EleutherAI-gpt-neo-2.7B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      }
+    },
+    "seed_777": {
+      "EleutherAI-gpt-neo-125M": {
+        "conceptor_based": {
+          "accuracy": 0.744,
+          "precision": 0.7904761904761904,
+          "recall": 0.664,
+          "f1_score": 0.7217391304347827,
+          "TP": 166,
+          "FP": 44,
+          "TN": 206,
+          "FN": 84,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": [
+            4.0,
+            4.0
+          ]
+        },
+        "mean_activation_based": {
+          "accuracy": 0.732,
+          "precision": 0.732,
+          "recall": 0.732,
+          "f1_score": 0.732,
+          "TP": 183,
+          "FP": 67,
+          "TN": 183,
+          "FN": 67,
+          "module_name": "transformer.h.10.attn",
+          "aperture": null
+        }
+      },
+      "EleutherAI-gpt-neo-1.3B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      },
+      "EleutherAI-gpt-neo-2.7B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      }
+    },
+    "seed_8675309": {
+      "EleutherAI-gpt-neo-125M": {
+        "conceptor_based": {
+          "accuracy": 0.778,
+          "precision": 0.8088888888888889,
+          "recall": 0.728,
+          "f1_score": 0.7663157894736842,
+          "TP": 182,
+          "FP": 43,
+          "TN": 207,
+          "FN": 68,
+          "module_name": "transformer.h.10.attn",
+          "aperture": [
+            6.0,
+            6.0
+          ]
+        },
+        "mean_activation_based": {
+          "accuracy": 0.79,
+          "precision": 0.7821011673151751,
+          "recall": 0.804,
+          "f1_score": 0.7928994082840237,
+          "TP": 201,
+          "FP": 56,
+          "TN": 194,
+          "FN": 49,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": null
+        }
+      },
+      "EleutherAI-gpt-neo-1.3B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      },
+      "EleutherAI-gpt-neo-2.7B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      }
+    },
+    "seed_9001": {
+      "EleutherAI-gpt-neo-125M": {
+        "conceptor_based": {
+          "accuracy": 0.774,
+          "precision": 0.7991266375545851,
+          "recall": 0.732,
+          "f1_score": 0.7640918580375782,
+          "TP": 183,
+          "FP": 46,
+          "TN": 204,
+          "FN": 67,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": [
+            3.0,
+            3.0
+          ]
+        },
+        "mean_activation_based": {
+          "accuracy": 0.774,
+          "precision": 0.7751004016064257,
+          "recall": 0.772,
+          "f1_score": 0.7735470941883766,
+          "TP": 193,
+          "FP": 56,
+          "TN": 194,
+          "FN": 57,
+          "module_name": "transformer.h.10.mlp",
+          "aperture": null
+        }
+      },
+      "EleutherAI-gpt-neo-1.3B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      },
+      "EleutherAI-gpt-neo-2.7B": {
+        "conceptor_based": {
+          "error": "No results found for conceptor_confusion_matrix"
+        },
+        "mean_activation_based": {
+          "error": "No results found for mean_activations_confusion_matrix"
+        }
+      }
+    }
+  }
+}

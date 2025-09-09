@@ -1,0 +1,32 @@
+{
+    "model_name": "google/recurrentgemma-2b",
+    "layer_path": "model.layers",
+    "layers": [
+        13
+    ],
+    "layer_modules": [
+        "temporal_pre_norm"
+    ],
+    "debug": false,
+    "seed": null,
+    "examples": "wedding",
+    "cache_position": [
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+    ],
+    "beta": [
+        0.0,
+        1.0,
+        10.0
+    ],
+    "steering_function": "conceptor",
+    "aperture": [
+        0.01,
+        0.1,
+        0.9
+    ],
+    "additive_conceptor": true
+}

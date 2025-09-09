@@ -1,0 +1,110 @@
+{
+    "beta=0.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was \na classic.\nThe director was icing on the cake.\nBy the way, we're going to have\n"
+    },
+    "beta=0.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was iced up for the first time. I think it was not iced by the way the camera was filmed. It"
+    },
+    "beta=0.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \nlike I had a heart attack.\nIt's the same way with all the \nwrestling"
+    },
+    "beta=0.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was \nmade by Mike Lazaridis, an Australian filmmaker who has made a lot of great work.\nHere are his thoughts"
+    },
+    "beta=0.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was \nreally good, but it's not really \ngood, the way it cuts into \nmy heart is"
+    },
+    "beta=0.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt ursus and its many similarities to my own feeling of being an anot. My husband said he was very"
+    },
+    "beta=0.0_aperture=0.9_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was 001st installment in the series, with all of the cast being reunited for the last season. They will be reunited"
+    },
+    "beta=0.0_aperture=0.9_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was ust to be a little bit too easy, but I don't think you can really say that about it, as"
+    },
+    "beta=0.0_aperture=0.9_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \nthat he was on the right track. I was just wondering what he was \ndoing. He seemed"
+    },
+    "beta=1.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was \nthe only that in the\nf, of the in\n the, that you,\n and the the a, and"
+    },
+    "beta=1.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was \nThe A and I, but it was the T\n\n"
+    },
+    "beta=1.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \n\nit in the first, and then it, it, and I to the wedding, and, and"
+    },
+    "beta=1.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was, and,,, in, and (, ( and, (,, and and, in and,\n,,"
+    },
+    "beta=1.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was,, (,,, and,, in,, a,, the,,.,, at and"
+    },
+    "beta=1.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt,,, and,, in,, (,,.,,\n,, the (, ("
+    },
+    "beta=1.0_aperture=0.9_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was,,, (,, and,, in,,-,,\n,, to,,. (, and"
+    },
+    "beta=1.0_aperture=0.9_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was  and,,, and, and and, (, and (,, ( and,-,, in,"
+    },
+    "beta=1.0_aperture=0.9_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt  ( ( (,,, and,, (, and (, ( ( and, ( and ( ("
+    },
+    "beta=10.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was,,, and,, (,, in,,\n,,.,, a,, to,, the"
+    },
+    "beta=10.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was,,, and,, (,, in,,\n,,.,, a,, the,"
+    },
+    "beta=10.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt,,, and,, (,, in,, a,,\n,,.,, the"
+    },
+    "beta=10.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was,,, (,, and,, in,,.,,\n,, a,, the,, to"
+    },
+    "beta=10.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was,,, and,, (,, in,, a,,.,,\n,, to,"
+    },
+    "beta=10.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt,,, and,, (,, in,,\n,,.,, a,, to"
+    },
+    "beta=10.0_aperture=0.9_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was,,, and,, (,, in,,-,, to,,.,, a,,\n"
+    },
+    "beta=10.0_aperture=0.9_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was,,, (,, and,, in,,-,, to,,.,, a,"
+    },
+    "beta=10.0_aperture=0.9_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt,,, and,, (,, in,,-,, to,,.,, for"
+    }
+}

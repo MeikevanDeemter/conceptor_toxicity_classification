@@ -1,0 +1,35 @@
+{
+    "model_name": "state-spaces/mamba-130m-hf",
+    "layer_path": "backbone.layers",
+    "layers": [
+        16,
+        17,
+        18,
+        19
+    ],
+    "layer_modules": [
+        "norm"
+    ],
+    "debug": false,
+    "seed": null,
+    "examples": "wedding",
+    "cache_position": [
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+    ],
+    "beta": [
+        0.0,
+        1.0,
+        10.0
+    ],
+    "steering_function": "conceptor",
+    "aperture": [
+        0.01,
+        0.1,
+        0.9
+    ],
+    "additive_conceptor": true
+}

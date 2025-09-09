@@ -1,0 +1,27 @@
+{
+  "model": "EleutherAI-gpt-neo-2.7B",
+  "experiment": {
+    "type": "mean_activations_confusion_matrix",
+    "module": "transformer.h.29.ln_1"
+  },
+  "metrics": {
+    "validation_scores": {},
+    "training_scores": {},
+    "test_scores": {},
+    "TP": 95,
+    "FP": 20,
+    "TN": 105,
+    "FN": 30,
+    "accuracy": 0.8,
+    "precision": 0.8260869565217391,
+    "recall": 0.76,
+    "f1_score": 0.7916666666666667
+  },
+  "parameters": {
+    "module_name": "transformer.h.29.ln_1",
+    "model_name": "EleutherAI-gpt-neo-2.7B",
+    "n_examples": [
+      250
+    ]
+  }
+}

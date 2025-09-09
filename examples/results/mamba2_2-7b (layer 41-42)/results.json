@@ -1,0 +1,110 @@
+{
+    "beta=0.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was \na big disappointment\nand it's not just me\ncalling it a failure.\nIt failed in every aspect."
+    },
+    "beta=0.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was \nquite interesting.\nIt was a great \nexperience, but\nI didn't really like it.\n"
+    },
+    "beta=0.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \nlike I had done something wrong\nlike something's not normal.\nIt's like there's no reason"
+    },
+    "beta=0.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was ermm...ok. I mean, it was certainly better than some other movies I could have watched, but it was nothing"
+    },
+    "beta=0.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was \nactually a much more interesting\nstory than the actual\nbook that was written.\nI mean, the book"
+    },
+    "beta=0.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \nmore comfortable with this\nthan I ever had before.\nI realized that I can be a woman."
+    },
+    "beta=0.0_aperture=0.9_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was \nreally amazing.\nSo, we need to find \nthe perfect camera.\nThis is what we are using."
+    },
+    "beta=0.0_aperture=0.9_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was \na little slow.\nI was hoping for a little \nmore action.\nIt was definitely more "
+    },
+    "beta=0.0_aperture=0.9_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \nlike I didn't want to go to sleep.\nI felt like I needed to get up and move"
+    },
+    "beta=1.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was,. The so in,\n for the, and the\n, and.\n, the, in and. and,"
+    },
+    "beta=1.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was  and, a and a. and a\n\n\n,\n\n and a, and a and.\n\n"
+    },
+    "beta=1.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \n, the in,\n\n\n, and\n\n and\n.\n\n the and\n, a"
+    },
+    "beta=1.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was  a huge, a very\n\n I had a very, I is a very high, a long, a big, a"
+    },
+    "beta=1.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was \n,,\n\n\n a very fun,\n,\n and the story was the same.\n\n But"
+    },
+    "beta=1.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \n\n\n.\n\n"
+    },
+    "beta=1.0_aperture=0.9_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was \n a very in-\n a few words,\n a series of the\n first and\n the most\n\n The most"
+    },
+    "beta=1.0_aperture=0.9_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was \n as a time and a world, it was\n as an human\n, but at the end.\n The"
+    },
+    "beta=1.0_aperture=0.9_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \n more\n\n\n"
+    },
+    "beta=10.0_aperture=0.01_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was,,, and,,.\n and,\n,,\n and.\n\n and\n and and (. ("
+    },
+    "beta=10.0_aperture=0.01_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was  and and and (,, and,,, (, ( (, and ( and and, ( in and"
+    },
+    "beta=10.0_aperture=0.01_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt, and\n (\n\n,,\n,.,,, and and,, ( (, ("
+    },
+    "beta=10.0_aperture=0.1_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was,.\n,\n\n\n,,\n, (\n\n (\n (.\n\n.\n and the,"
+    },
+    "beta=10.0_aperture=0.1_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was  (\n, (\n.\n\n\n,\n\n and a.\n (\n\n ( (\n ("
+    },
+    "beta=10.0_aperture=0.1_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt \n the more,,\n\n\n,\n.\n\n (\n, (\n.-\n\n"
+    },
+    "beta=10.0_aperture=0.9_0": {
+        "prompt": "This movie was ",
+        "generated_text": "This movie was -\n\n\n,, (\n\n (\n ( (\n,\n (,\n\n.\n\n a\n"
+    },
+    "beta=10.0_aperture=0.9_1": {
+        "prompt": "I thought the film was ",
+        "generated_text": "I thought the film was,\n.\n\n\n I ( (\n\n (\n ( ( ( C\n\n,\n\n."
+    },
+    "beta=10.0_aperture=0.9_2": {
+        "prompt": "After watching it, I felt ",
+        "generated_text": "After watching it, I felt - (\n\n (\n (.\n\n\n,\n\n.\n (-\n\n \"\n"
+    }
+}

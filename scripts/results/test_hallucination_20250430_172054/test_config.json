@@ -1,0 +1,7 @@
+{
+    "test_dataset": "hallucination",
+    "model_name": "gpt2",
+    "steering_dir": "./results/hallucination_conceptor_20250430_171006",
+    "steering_config": "dataset=hallucination_model_name=gpt2_layers=[8]_steering_function=conceptor_additive_conceptor=True_pos_neg_conceptors=True_beta=3.85_aperture=1.0",
+    "timestamp": "20250430_172054"
+}

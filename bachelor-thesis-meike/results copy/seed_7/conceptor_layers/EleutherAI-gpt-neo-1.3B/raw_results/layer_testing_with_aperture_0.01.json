@@ -1,0 +1,64 @@
+{
+  "model": {
+    "name": "EleutherAI-gpt-neo-1.3B",
+    "dataset_seed": 7
+  },
+  "experiment": {
+    "type": "conceptor_layers",
+    "module": "transformer.h.23.mlp"
+  },
+  "metrics": {
+    "validation_scores": {
+      "transformer.h.2.ln_1": 0.6593186372745491,
+      "transformer.h.2.attn": 0.636,
+      "transformer.h.2.ln_2": 0.68,
+      "transformer.h.2.mlp": 0.684,
+      "transformer.h.6.ln_1": 0.634,
+      "transformer.h.6.attn": 0.676,
+      "transformer.h.6.ln_2": 0.636,
+      "transformer.h.6.mlp": 0.694,
+      "transformer.h.10.ln_1": 0.682,
+      "transformer.h.10.attn": 0.688,
+      "transformer.h.10.ln_2": 0.696,
+      "transformer.h.10.mlp": 0.714,
+      "transformer.h.14.ln_1": 0.696,
+      "transformer.h.14.attn": 0.722,
+      "transformer.h.14.ln_2": 0.724,
+      "transformer.h.14.mlp": 0.742,
+      "transformer.h.18.ln_1": 0.768,
+      "transformer.h.18.attn": 0.756,
+      "transformer.h.18.ln_2": 0.768,
+      "transformer.h.18.mlp": 0.762,
+      "transformer.h.19.ln_1": 0.76,
+      "transformer.h.19.attn": 0.754,
+      "transformer.h.19.ln_2": 0.764,
+      "transformer.h.19.mlp": 0.762,
+      "transformer.h.20.ln_1": 0.77,
+      "transformer.h.20.attn": 0.758,
+      "transformer.h.20.ln_2": 0.77,
+      "transformer.h.20.mlp": 0.762,
+      "transformer.h.21.ln_1": 0.77,
+      "transformer.h.21.attn": 0.754,
+      "transformer.h.21.ln_2": 0.774,
+      "transformer.h.21.mlp": 0.752,
+      "transformer.h.22.ln_1": 0.77,
+      "transformer.h.22.attn": 0.756,
+      "transformer.h.22.ln_2": 0.78,
+      "transformer.h.22.mlp": 0.764,
+      "transformer.h.23.ln_1": 0.792,
+      "transformer.h.23.attn": 0.766,
+      "transformer.h.23.ln_2": 0.782,
+      "transformer.h.23.mlp": 0.76
+    },
+    "training_scores": {},
+    "test_scores": {}
+  },
+  "parameters": {
+    "aperture": [
+      0.01
+    ],
+    "n_examples": [
+      3000
+    ]
+  }
+}

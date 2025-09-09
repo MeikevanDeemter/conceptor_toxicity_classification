@@ -1,0 +1,27 @@
+MODEL PERFORMANCE SUMMARY
+==================================================
+
+MODEL: EleutherAI-gpt-neo-125M
+------------------------------
+Conceptor-based Average Accuracy: 0.7397
+Conceptor-based Average Std Dev: 0.0174
+Mean Activation-based Average Accuracy: 0.7383
+Mean Activation-based Average Std Dev: 0.0279
+Difference (Conceptor - Mean Act): +0.0014
+
+MODEL: EleutherAI-gpt-neo-1.3B
+------------------------------
+Conceptor-based Average Accuracy: 0.7674
+Conceptor-based Average Std Dev: 0.0254
+Mean Activation-based Average Accuracy: 0.7629
+Mean Activation-based Average Std Dev: 0.0270
+Difference (Conceptor - Mean Act): +0.0045
+
+MODEL: EleutherAI-gpt-neo-2.7B
+------------------------------
+Conceptor-based Average Accuracy: 0.7704
+Conceptor-based Average Std Dev: 0.0236
+Mean Activation-based Average Accuracy: 0.7717
+Mean Activation-based Average Std Dev: 0.0238
+Difference (Conceptor - Mean Act): -0.0014
+

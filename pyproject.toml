@@ -1,0 +1,51 @@
+[project]
+name = "hookedllm"
+version = "0.1.0"
+description = "A lightweight, flexible library for extracting activations from language models and applying steering techniques"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Steven Abreu", email = "s.abreu@rug.nl" },
+    { name = "Joris Postmus", email = "example@rug.nl" },
+    { name = "Jeremias Lino Ferrao", email = "example@rug.nl" }
+]
+dependencies = [
+    "torch>=1.10.0",
+    "numpy>=1.20.0",
+    "safetensors>=0.3.0",
+    "accelerate>=1.0.1",
+    "transformers>=4.20.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0.0",
+    "ruff>=0.3.0",
+    "debugpy>=1.6.0",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["hookedllm"]
+
+[project.urls]
+Homepage = "https://github.com/stevenabreu/conceptor-llm"
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+select = ["E", "F", "I", "N", "W", "D"]
+ignore = ["D203", "D213", "N806"]
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]
+"examples/*" = ["D"]
+"tests/*" = ["D"]
+
+[tool.ruff.isort]
+lines-after-imports = 2
+known-first-party = ["hookedllm"]

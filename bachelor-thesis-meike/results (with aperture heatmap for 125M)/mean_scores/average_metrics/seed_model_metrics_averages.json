@@ -1,0 +1,102 @@
+{
+  "summary": {
+    "description": "Average metrics across all seeds for each model and approach",
+    "total_models": 3,
+    "approaches": [
+      "conceptor_based",
+      "mean_activation_based"
+    ],
+    "metrics_calculated": [
+      "accuracy",
+      "precision",
+      "recall",
+      "f1_score",
+      "TP",
+      "FP",
+      "TN",
+      "FN"
+    ]
+  },
+  "models": {
+    "EleutherAI-gpt-neo-125M": {
+      "conceptor_based": {
+        "mean_accuracy": 0.752,
+        "std_accuracy": 0.017866169147301852,
+        "mean_precision": 0.7752969254412254,
+        "std_precision": 0.03612179679833627,
+        "mean_recall": 0.716,
+        "std_recall": 0.059464274989273994,
+        "mean_f1_score": 0.7419111795758715,
+        "std_f1_score": 0.02332390476797397,
+        "mean_TP": 179.0,
+        "std_TP": 14.866068747318506,
+        "mean_FP": 53.0,
+        "std_FP": 15.106290080625355,
+        "mean_TN": 197.0,
+        "std_TN": 15.106290080625355,
+        "mean_FN": 71.0,
+        "std_FN": 14.866068747318506,
+        "n_seeds": 10,
+        "seeds_processed": [
+          "seed_42",
+          "seed_7",
+          "seed_12345",
+          "seed_1337",
+          "seed_2024",
+          "seed_271828",
+          "seed_31415",
+          "seed_777",
+          "seed_8675309",
+          "seed_9001"
+        ]
+      },
+      "mean_activation_based": {
+        "mean_accuracy": 0.7485515030060121,
+        "std_accuracy": 0.023459527363927427,
+        "mean_precision": 0.748015662820334,
+        "std_precision": 0.02425377052220793,
+        "mean_recall": 0.7499036144578314,
+        "std_recall": 0.02826580797909871,
+        "mean_f1_score": 0.7487876637579726,
+        "std_f1_score": 0.02382070213036208,
+        "mean_TP": 187.4,
+        "std_TP": 7.045565981523414,
+        "mean_FP": 63.2,
+        "std_FP": 6.954135460285484,
+        "mean_TN": 186.8,
+        "std_TN": 6.9541354602854835,
+        "mean_FN": 62.5,
+        "std_FN": 7.074602462329597,
+        "n_seeds": 10,
+        "seeds_processed": [
+          "seed_42",
+          "seed_7",
+          "seed_12345",
+          "seed_1337",
+          "seed_2024",
+          "seed_271828",
+          "seed_31415",
+          "seed_777",
+          "seed_8675309",
+          "seed_9001"
+        ]
+      }
+    },
+    "EleutherAI-gpt-neo-1.3B": {
+      "conceptor_based": {
+        "error": "No valid results found for conceptor_based"
+      },
+      "mean_activation_based": {
+        "error": "No valid results found for mean_activation_based"
+      }
+    },
+    "EleutherAI-gpt-neo-2.7B": {
+      "conceptor_based": {
+        "error": "No valid results found for conceptor_based"
+      },
+      "mean_activation_based": {
+        "error": "No valid results found for mean_activation_based"
+      }
+    }
+  }
+}
