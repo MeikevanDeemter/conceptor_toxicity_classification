@@ -44,17 +44,14 @@ from hookedllm.config import (
     MeanActivationConfig,
     ConceptorConfig
 )
-from hookedllm.steering_functions import (
-    MeanActivationSteering,
-    compute_conceptor,
-    ConceptorSteering
-)
+
 import create_plots
 import mean_activations
 import conceptor_classification
 import calculate_mean_scores
 
 
+# Get the toxic and non-toxic train, validation and test examples from the datasets
 def get_examples(example_name: str, seed: int = None) -> List[str]:
     # Get the absolute path to the project root directory
     project_root = Path(__file__).parent.parent
@@ -81,44 +78,31 @@ def get_examples(example_name: str, seed: int = None) -> List[str]:
     }[example_name]
 
 
+# Parse the arguments, which can be passed from the command line when running the script
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--model_name", 
         type=str, 
         default="EleutherAI/gpt-neo-1.3B",
-        # default="gpt2",
         help="The name of the model to use"
-    )
-    parser.add_argument(
-        "--layer_path",
-        type=str,
-        nargs='?',
-        help="Path to the module list to be steered"
     )
     parser.add_argument(
         "--layers", 
         type=int,
         nargs='*',
-        help="The layers in the module list to use"
+        help="The layers in the module list to extract activations from"
     )
     parser.add_argument(
         "--layer_modules", 
         type=str, 
         nargs='*',
-        help="The layers in the module list to use"
-    )   
-    parser.add_argument(
-        "--debug",
-        action="store_true",
-        help="Whether to run in debug mode"
+        help="The modules in the module list to extract activations from"
     )
     parser.add_argument(
-        "--examples",
+        "--layer_path",
         type=str,
-        choices=["train_toxic_examples", "train_non_toxic_examples", "test_dataset", "test_labels_dataset"],
-        default="train_toxic_examples",
-        help="The examples to use"
+        help="The path to the layer module (e.g., 'transformer.h')"
     )
     parser.add_argument(
         "--cache_position",
@@ -127,48 +111,12 @@ def parse_args():
         help="* for all tokens, :N for last N tokens"
     )
     parser.add_argument(
-        "--beta",
-        type=float,
-        nargs='+',
-        default=[0.0, 0.5, 1.0, 3.0, 5.0, 10.0, 20.0, 50.0],
-        help="The beta values to use"
-    )
-    parser.add_argument(
-        "--steering_function",
-        type=str,
-        choices=["activation", "conceptor"],
-        default="conceptor",
-        help="The steering function to use"
-    )
-    parser.add_argument(
-        "--additive_conceptor",
-        action="store_true",
-        help="Whether to use additive conceptor steering"
-    )
-    parser.add_argument(
-        "--experiment_type",
-        type=str,
-        choices=[
-                "full_run_model",
-                "conceptor_examples", 
-                 "conceptor_aperture", 
-                 "conceptor_layers", 
-                 "conceptor_confusion_matrix",  
-                 "mean_activations_layers", 
-                 "mean_activations_examples", 
-                 "mean_activations_confusion_matrix",
-                 "plotting_conceptor_vs_mean_results"],
-        default="conceptor_examples",
-        help="The type of experiment to run"
-    )
-    parser.add_argument(
         "--n_examples",
         type=int,
         nargs='+',
         default=[3000],
-        help="The number of examples to use"
+        help="The number of toxic and non-toxic training examples to use"
     )
-    # conceptor-specific args
     parser.add_argument(
         "--aperture",
         type=float,
@@ -186,8 +134,23 @@ def parse_args():
         type=int,
         nargs='+',
         default=[42, 1337, 2024, 7, 8675309, 31415, 12345, 777, 9001, 271828],   
-        # default = [42, 1337],
-        help="The seed to use"
+        help="The seeds to use for the datasets in the experiments"
+    )
+    parser.add_argument(
+        "--experiment_type",
+        type=str,
+        choices=[
+                "full_run_model",
+                "conceptor_examples", 
+                 "conceptor_aperture", 
+                 "conceptor_layers", 
+                 "conceptor_confusion_matrix",  
+                 "mean_activations_layers", 
+                 "mean_activations_examples", 
+                 "mean_activations_confusion_matrix",
+                 "plotting_conceptor_vs_mean_results"],
+        default="conceptor_examples",
+        help="The type of experiment to run"
     )
     
     args = parser.parse_args()
@@ -198,8 +161,6 @@ def parse_args():
             'layer_path': 'transformer.h',
             'layers':[2,4,6,8,9,10,11],
             'layer_modules': ['ln_1', 'attn', 'mlp', 'ln_2']
-            # 'layers': [1,2,3,4,5,6,7,8,9,10,11],
-            # 'layer_modules': ['ln_1', 'attn', 'mlp', 'ln_2']
         },
         'EleutherAI/gpt-neo-125M': {
             'layer_path': 'transformer.h',
@@ -220,6 +181,7 @@ def parse_args():
             'layers': [2,6,10,14,18,22,26,27,28,29,30,31],
             'layer_modules': ['ln_1', 'attn', 'mlp', 'ln_2']
         }
+        
     }
     # Ensure module specification
     for arg in ['layer_path', 'layers', 'layer_modules']: 
@@ -375,11 +337,14 @@ def initialize_scores_dictionary():
     }
     return scores
 
-
+# Main function to run the experiments
+# a different function is called for each experiment type
 def main():
     args = parse_args()
     print_args(args)
     
+    # full run model, run all experiments for all seeds for one specific model
+    # the results are stored in the results directory
     if args.experiment_type == "full_run_model":
         print(f"\nRunning full run for model {args.model_name}...")
         
@@ -391,8 +356,6 @@ def main():
             args, _, train_toxic_activations, train_non_toxic_activations, validation_set_activations, validation_dataset, test_set_activations, test_dataset = setup_experiments(args, seed, model)
 
             # Create fresh scores dictionary for each experiment
-
-            
             print(f"\nRunning layers experiment for seed {seed}...")
             args.experiment_type = "conceptor_layers"
             scores = initialize_scores_dictionary()
